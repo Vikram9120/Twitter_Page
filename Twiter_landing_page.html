@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twiter</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+    padding: 14px 15px;
+    font-size: 15px;
+    float: right;
+    display: flex;
+    text-align: center;
+}
+.navbar a:hover{
+    color: white;
+    background-color: #3f95cf;
+}
+.navbar a.active{
+    color: white;
+    background-color: #139ffc;
+}
+
+.container{
+    background-color: #cde5f1;
+    height: 110vh;
+    width: auto;
+    padding-top: 2rem;
+    }
+.container_{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.content{
+    height: 90vh;
+    width: 80%;
+}
+.main_heading h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.button{
+    overflow: hidden;
+    padding: 0px 0px 15px 0px;
+}
+.button .btn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 12px 15px;
+    display: flex;
+    float: left;
+    text-align: center;
+    background-color: #139ffc;
+}
+.button .btn1{
+    text-decoration: none;
+    color: rgb(39, 94, 245);
+    font-size: 15px;
+    padding: 12px 10px;
+    display: flex;
+    float: left;
+    text-align: center;
+    margin-left: 1rem;
+}
+.menu{
+    height: 100vh;
+    width: 30%;
+    background-image: url(twitter_analysis/Hero\ Image\ \(Desktop\ View\).png);
+    background-size: 100% 100%;
+}
+.box_container{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.box{
+    width: 40%;
+    height: 30vh;
+    border: 1px solid rgb(174, 174, 174);
+}
+ h2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.card_container{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+.card{
+    width: 35%;
+    height: 50vh;
+    background-color: white;
+}
+.card2{
+    width: 30%;
+    height: 55vh;
+    background-color: white;
+}
+.last_container{
+    width: 40%;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_box{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid rgb(243, 205, 154);
+    background-color: rgb(249, 242, 233);
+}
+footer{
+    height: 10vh;
+    background-color: #cde5f1;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="navbar">
+    <a class="active" href="#">Sing in with twiter</a>
+    <a href="#">FAQ</a>
+    <a href="#">Pricing</a>
+    <a href="#">Home</a>
+</div>
+    <!--<div id="logo">
+        <p>Chirp</p>
+    </div>-->
+            <div class="container">
+                <div class="container_">
+                    <div class="content">
+                        <div> <!--Button and heading and paragraph container-->
+                            <div class="h_container"><!--Heading and paragraph Container-->
+                                <div class="main_heading">
+                                    <h1>Twiter analytics<br>taken to a whole new<br>level.</h1>
+                                </div>
+                                <div>
+                                    <p>Chirp is a suite of Twitter that will help you better understand<br>
+                                    your audience, which tweets they like, and most important, when<br>they are the most active on Twitter </p>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a class="btn" href="">Sign in with Twitter</a>
+                                <a class="btn1" href="#" >Learn more<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="twitter_analysis/userAvatar01.svg" alt="">
+                            <img src="twitter_analysis/userAvatar02.svg" alt="">
+                            <img src="twitter_analysis/userAvatar03.svg" alt="">
+                            <img src="twitter_analysis/userAvatar04.svg" alt="">
+                            <img src="twitter_analysis/userAvatar05.svg" alt="">
+                            <img src="twitter_analysis/userAvatar06.svg" alt="">
+                            <img src="twitter_analysis/userAvatar07.svg" alt="">
+                            <img src="twitter_analysis/userAvatar08.svg" alt="">
+                            <img src="twitter_analysis/userAvatar09.svg" alt="">
+                        </div>
+                        <div class="para">
+                            <p>Join <span style="color: #139ffc;">195</span> other who have analyzed their followers and <br> Scheduled <span style="color: #139ffc;">1342</span> Tweets!</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                    </div>
+                </div>
+
+            </div>
+
+                <div><!--content container-->
+                    <div>
+                        <h2>Future that help you <br>Tweet smarter.</h2>
+                    </div>
+                    <div class="box_container">
+                        <div class="box">
+                            <h3>&#128200 <br>Analytics</h3>
+                            <p>We constantly monitor your audience as it grow - so you <br>can Tweet when your followers are most likely to be online 
+                            <br>and ready to engage with your content.</p>
+                        </div>
+                        <div class="box">
+                            <h3> &#128526 <br>Smart Analyzer</h3>
+                            <p>Chirp automaticaly recognizes your followers most active <br>time and automatically send you notifications if you're
+                            <br>missing out on an opportunity.</p>
+                        </div>
+                        <div class="box">
+                            <h3>&#8987 <br>Scheduled Your Tweets</h3>
+                            <p>Quality tweets drive tone of engagement with Chirp, you <br>can write tweets in an advance and schedule them when 
+                            <br>your audience is most likely to read.</p>
+                        </div>
+                        <div class="box">
+                            <h3> &#10055 <br>Dark Mode</h3>
+                            <p>Friendly on the eyes, no matter what time you write your <br>Tweets. All colors are chosen to make sure your eyes are 
+                            <br>at ease at all time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: rgb(202, 253, 253);"><!--content container-->
+                    <div>
+                        <h2>What our costumer say</h2>
+                    </div>
+                    <div class="card_container">
+                        <div class="card">
+                                <img src="twitter_analysis/userAvatar09.svg" alt="">
+                                <h3>Sara</h3>
+                                <img src="twitter_analysis/Twitter.icone(Blue).svg" alt=""><br>
+                                <p>@sara_may</p>
+                                <p>...............................................................................</p>
+                        </div>
+                        <div class="card2">
+                            <img src="twitter_analysis/userAvatar01.svg" alt="">
+                            <h3>Jack Scott</h3>
+                            <img src="twitter_analysis/Twitter.icone(Blue).svg" alt=""><br>
+                            <p>@jackscott_</p>
+                            <p>......................................................................................</p>
+                        </div>
+                        <div class="card">
+                            <img src="twitter_analysis/userAvatar06.svg" alt="">
+                            <h3>Jassica may</h3>
+                            <img src="twitter_analysis/Twitter.icone(Blue).svg" alt="">
+                            <p>@jmay98</p>
+                            <p>..............................................................................................</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="last_container">
+                    <div>
+                        <div>
+                            <h2 style="text-align: center;">One simple price plan.</h2>
+                            <p style="text-align: center;">Start growing your Twitter account by analyzing your follower's <br>pattner</p>
+                        </div>
+                        <div class="last_box">
+                            <p>Monthly <br><span>$9</span>/mo</p>
+                            <hr>
+                            <span>
+                                <p> <img src="twitter_analysis/Checkmark.svg" alt="">Unlimited schedule Tweets and threads</p>
+                                <p> <img src="twitter_analysis/Checkmark.svg" alt="">Scheduled up to 3 weeks in advance.</p>
+                                <p> <img src="twitter_analysis/Checkmark.svg" alt="">Real time audience analytics tracking up to 5k followers</p>
+                                <hr>
+                                <div>
+                                    <a class="btn3"></a>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <span style="float: right;"><p>Privacy policy Terms of Use</p></span>
+                </footer>
+
+
+</body>
+</html>
